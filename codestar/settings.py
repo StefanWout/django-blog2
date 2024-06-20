@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-qw6xezw6msr04gswyv&+1mn__&k#)cpeenx+9m)_ko6sc@!s!o
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-stefanwout-djangoblog2-vq31slr76to.ws.codeinstitute-ide.net', '.herokuapp.com', 'https://8000-stefanwout-djangoblog2-vq31slr76to.ws.codeinstitute-ide.net']
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'django_summernote',
+    'about',
 ]
 
 MIDDLEWARE = [
